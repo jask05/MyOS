@@ -25,15 +25,13 @@ $ cpts access.log /home/
 'access.log' -> '/home/access.log_20171216041456'
 ~~~~
 
-#### :arrow_forward: 00-cpts.sh
+#### :arrow_forward: 01-cpts.sh
 **Explanation**
 >
-> This function copy a specific file under a folder and add a timestamp as a prefix. It uses **cp** with *-r, -v, -f* and *-p* parameters.
+> This function creates a copy of a file with timestamp before edit it with **vim**. It is really usefull to make a fast backup.
 
 **How to use it**
 
 ~~~~
-$ cpts file_to_copy destination_folder
-$ cpts access.log /home/
-'access.log' -> '/home/access.log_20171216041456'
+$ vimc file
 ~~~~
