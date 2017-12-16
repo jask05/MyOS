@@ -5,7 +5,12 @@
 
 ## Bash folder
 
-I copy these scripts under profile.d folder (**/etc/profile.d**) so that all users can use them.
+I copy these scripts under profile.d folder (**/etc/profile.d**) so that all users can use them. 
+If you want to use it in the same session without restart the system or session, you have to execute:
+
+~~~~
+$ source /etc/profile.d/<script-name>
+~~~~
 
 #### :arrow_forward: 00-cpts.sh
 **Explanation**
