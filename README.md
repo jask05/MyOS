@@ -4,7 +4,7 @@
 
 ## Environment folder
 
-I put some scripts to customize my experience using terminal. I've changed Bash to Fish and I'm using a customized Vim and Tmux.
+I put some scripts to customize my experience using terminal. I've changed Bash shell to Fish and I'm using a customized Vim and Tmux.
 
 ## Functions folder
 
