@@ -1,7 +1,10 @@
 # My Own Scripts (MyOS)
 
-> Personal scripts compilation that I want to share with you.
+> Personal scripts compilation that I want to share with you. Also you can find non-personal scripts that are usefull to me.
 
+## Environment folder
+
+I put some scripts to customize my experience using terminal. I've changed Bash to Fish and I'm using a customized Vim and Tmux.
 
 ## Functions folder
 
