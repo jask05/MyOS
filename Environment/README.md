@@ -7,6 +7,35 @@ My own environment configuration. Read carefully how to install and configure Tm
 - Custom Tmux
 - Custom Vim
 
+Installation
+--------
+
+### General
+
+> ~$ cd
+> ~$ git clone https://github.com/jask05/MyOS
+
+### Fish
+
+> ~$ sudo apt-get install fish
+> ~$ chsh -s /usr/bin/fish
+> ~$ mkdir -p ~/.config/fish
+> ~$ cp -rvfp config.fish ~/.config/fish/
+> ~$ cp -rvfp fish_prompt.fish ~/.config/fish/
+> ~$ fish_config # Optional
+
+### Vim
+> ~$ cp -rvfp vimrc ~/.vimrc
+
+### Tmux
+> ~$ sudo apt-get install tmux
+> ~$ cd
+> ~$ git clone https://github.com/gpakosz/.tmux.git
+> ~$ ln -s -f .tmux/.tmux.conf
+> ~$ cd
+> ~$ cp -rvfp ~/MyOS/Environment/tmux.conf.local ~/.tmux.conf.local
+
+
 Tmux Bindings (@gpakosz)
 --------
 
@@ -70,5 +99,6 @@ Bibliography
 - [Fish documentation](https://fishshell.com/docs/current/index.html)
 - [Fish and Vim configuration](https://gist.github.com/killercup/5459372) 
 - [More configurations that I did not use](https://pempek.net/articles/2013/04/14/maximizing-tmux-pane-new-window/)
+- [Instalar fish interpretrete inteligente](https://miguelmenendez.pro/es/blog/2015/12/instalar-fish-interprete-inteligente-linea-comandos-gnu-linux-hurd-bsd/)
 
 
