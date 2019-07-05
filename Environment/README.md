@@ -15,6 +15,10 @@ Installation
 > ~$ cd
 > ~$ git clone https://github.com/jask05/MyOS
 
+### Installation - UNDER CONSTRUCTION
+
+I'm developing a script to install and configure everthing. It is not finish yet.
+
 ### Fish
 
 > ~$ sudo apt-get install fish
